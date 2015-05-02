@@ -8,7 +8,8 @@
     tools:context="com.rmc.rmc.Master">
 
     <LinearLayout
-        android:layout_weight="1"
+
+        android:layout_weight="2"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:weightSum="3"
@@ -45,7 +46,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:weightSum="2"
-        android:layout_weight="10"
+        android:layout_weight="9"
         android:layout_height="0dp">
 
         <LinearLayout
@@ -75,7 +76,43 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:background="#ff5d5d5d"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"></LinearLayout>
 
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="3"
+        android:layout_weight="5">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/meter" />
+
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/meter" />
+
+
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/meter" />
     </LinearLayout>
 
 
