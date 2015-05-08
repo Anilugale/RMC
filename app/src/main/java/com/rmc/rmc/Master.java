@@ -6,7 +6,6 @@ import android.view.View;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
-import java.net.InetSocketAddress;
 import java.net.Socket;
 
 
@@ -54,8 +53,8 @@ db.addData(new Data("okat"));
         {
 
 
-            Socket s = new Socket();
-            s.connect(new InetSocketAddress("192.168.42.122", 7979), 1000);
+            Socket s = new Socket("192.168.42.122", 7979);
+
             System.out.println(s);
             DataOutputStream dout = new DataOutputStream(s.getOutputStream());
             String string="##,2B,359586015829802,'S',143050,12312015,0,0000000000,0000000000,000000,0000000,0000000,000,10,R,0,1,003.5,003.5,004.5,120.5,178.00,004.5,120.5,178.00;";
