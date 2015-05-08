@@ -28,9 +28,9 @@ public class Master extends ActionBarActivity {
             }
         }).start();
 
-       /* DBHelper db= null;
+       /* DBHelp db= null;
         try {
-            db = new DBHelper(this);
+            db = new DBHelp(this);
 db.addData(new Data("okat"));
             List<Data> list =db.getAll();
 
