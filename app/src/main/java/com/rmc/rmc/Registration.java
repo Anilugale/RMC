@@ -1,13 +1,11 @@
 package com.rmc.rmc;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
 
@@ -28,7 +26,7 @@ public class Registration extends ActionBarActivity {
 
     public void onContinue(View view) {
 
-        startActivity(new Intent(this,HelthMonitoring.class));
+        startActivity(new Intent(this,HealthMonitoring.class));
     }
 
 

@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class HelthMonitoring extends ActionBarActivity {
+public class HealthMonitoring extends ActionBarActivity {
 
     ListView health;
     Map<String,String> data;
@@ -49,7 +49,7 @@ public class HelthMonitoring extends ActionBarActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        startActivity(new Intent(HelthMonitoring.this,Master.class));
+                        startActivity(new Intent(HealthMonitoring.this,Master.class));
                         finish();
                     }
                 });
